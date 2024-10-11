@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personality Prank</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>What's Your Personality?</h1>
+    <p>Fill out the form below to find out!</p>
+    <form action="result.html" method="POST">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="birthdate">Your Birthdate:</label><br>
+        <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
